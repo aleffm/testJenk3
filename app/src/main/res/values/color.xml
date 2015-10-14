@@ -3,7 +3,7 @@
 
     <color name="blue">#0000FF</color>
     <color name="darkBlue">#0000CC</color>
-    <color name="lightBlue">#770000FF</color>
+    <color name="lightBlue">#770000EE</color>
     <color name="gray">#999999</color>
 
 </resources>
