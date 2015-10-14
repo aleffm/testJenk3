@@ -14,7 +14,9 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 
     public void test1 () throws Exception
     {
-        EditText resposta;
+        AtividadeMain atvM= new AtividadeMain();
+        EditText resposta = (EditText) atvM.resp;
+        atvM.resp.setText((CharSequence) resposta);
 
 
     }
