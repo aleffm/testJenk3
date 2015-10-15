@@ -1,14 +1,7 @@
 <project name="test3">
+	
 	<target name="clean">
 		<delete dir="build"/>
 	</target>
 
-	<target name="compile">
-		<mkdir dir="build/classes"/>
-		<javac srcdir="app/src" destdir="build/classes"/>
-	</target>
-
-	<target name="run">
-		<java jar="build/jar/HelloWorld.jar" fork="true"/>
-	</target>
 </project>
