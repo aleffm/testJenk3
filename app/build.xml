@@ -18,13 +18,13 @@
 		<mkdir dir="${build}"/>
 	</target>
 
-	<target name="compile" depends="init"
+	<target name="compile"
 		description="compile the source">
 		<!-- Compile the java code from ${src} into ${build} -->
 		<javac srcdir="${src}" destdir="${build}"/>
 	</target>
 
-	<target name="dist" depends="compile"
+	<target name="dist"
 		description="generate the distribution">
 		<!-- Create the distribution directory -->
 		<mkdir dir="${dist}/lib"/>
