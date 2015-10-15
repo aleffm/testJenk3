@@ -33,4 +33,20 @@
 		<jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}"/>
 	</target>
 
+	<target name="unit-test-1" >
+
+		<junit printsummary="yes" haltonfailure="yes">
+
+
+			<test name="com.example.aleff.aulas.ApplicationTest"
+				haltonfailure="no" outfile="result">
+
+				<formatter type="plain"/>
+				<formatter type="xml"/>
+
+			</test>
+
+		</junit>
+	</target>
+
 </project>
